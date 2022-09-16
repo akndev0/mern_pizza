@@ -1,0 +1,163 @@
+.toppills{
+    border-radius: 20px;
+    
+}
+.menuPillsActive{
+    background:yellowgreen !important;
+    border-radius: 20px;
+   
+}
+.menuPillsInactive{
+    text-decoration: underline;
+    text-decoration-color: #885550;
+    text-underline-offset: 5px;
+}
+
+.menuPills:hover{
+    background: #af4035 !important;
+    text-decoration: none;
+}
+.badgepills{
+    border-radius: 15px !important;
+}
+
+
+.sizePills{
+    background: transparent !important;
+   
+}
+
+
+
+.cardPills{
+   font-size: 16px;
+}
+.labels{
+    display: flex;
+    
+}
+.qtybtnColor{
+    border: #af4035;
+    border-width: 20px !important;
+    background:wheat !important;
+    color: black;
+    border:none;
+}
+.cartbutton{
+    background: yellowgreen !important;
+    color: white;
+    border:none;
+}
+.detailsbutton{
+    background:  #cfb53b !important;
+   
+    border:none;
+}
+
+.productsItemImg{
+    background: #f6f6f6;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+    min-height: 250px;
+    
+}
+.productsItemTitle{
+    font-weight: 700;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-align: center;
+     
+    text-overflow: ellipsis; 
+}
+
+.dancing{
+    font-family: "Dancing Script"
+}
+.productsItemDescription{
+    font-size: 14px;
+    min-height: 50px;
+    max-height: 50px;
+    text-overflow: ellipsis; 
+}
+.productsItemPriceTitle{
+    font-size: 20px;
+}
+.productsItembadge{
+    min-height: 125px;
+}
+.productsItemPrice{
+    align-items: center;
+    justify-content: center;
+    color:#fd9d3e;
+  
+    font-size: 25px;
+    
+}
+
+  /* On screens that are 992px or less, set the background color to blue */
+ @media screen and (max-width: 1400px) {
+    .cardPills {
+        font-size: 12px;
+    }
+    .additional{
+        font-size: 12px;
+        
+    }
+
+
+
+
+
+
+  }
+  
+  @media only screen and (min-width: 0px)  and (max-width: 550px){
+    .cardPills {
+        font-size: 12px;
+    }
+    .additional{
+        font-size: 12px;
+        
+    }
+  }
+  @media only screen and (min-width: 550px) and (max-width: 600px)
+  {
+    .cardPills {
+        font-size: 12px;
+    }
+    .additional{
+        font-size: 12px;
+        
+    }
+  }
+  @media only screen and (min-width: 600px) and (max-width: 768px)
+  {
+    .cardPills {
+        font-size: 12px;
+    }
+    .additional{
+        font-size: 12px;
+        
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 992px){
+    .cardPills {
+        font-size: 10px;
+    }
+    .additional{
+        font-size: 12px;
+        
+    }
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .cardPills {
+        font-size: 12px;
+    }
+    .additional{
+        font-size: 12px;
+        
+    }
+  } 

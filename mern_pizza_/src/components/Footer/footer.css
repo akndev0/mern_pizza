@@ -1,0 +1,78 @@
+.footer{
+  background: #27292c;
+  padding-top: 15px;
+  padding-bottom: 55px;
+}
+.list{
+  border: 0 none !important;
+  text-align: left;
+  background: #27292c;
+  color:white;
+  
+}
+.list-header{
+  border: 0 none !important;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+ 
+}
+.cart-item{
+  background: #27292c;
+  color:white;
+  border: 0 none !important;
+}
+
+
+.closed{
+  background: sandybrown;
+  padding-right: 10px;
+  padding-left:10px;
+
+}
+
+
+.hoursMain2{
+  text-align: end;
+}
+
+.break{
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  background: #27292c;
+}
+.break >hr {
+  color: #000000;
+ background: white;
+ height: .5;
+  border-color: #000000;
+}
+.footerIcon{
+  background-color: grey;
+  color: white;
+  height:25px;
+  width: 25px;
+  padding: 5px;
+}
+.footerIcon:hover{
+ background-color: indianred;
+}
+
+.rights{
+  color:white;
+}
+.rightscol{
+
+  text-align: left;
+}
+.footer{
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.footerMain{
+  
+  bottom:0 !important;
+}

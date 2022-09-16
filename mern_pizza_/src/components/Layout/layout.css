@@ -1,0 +1,6 @@
+.pizzamain{
+    max-height: 370px !important;
+    width: 100%;
+    opacity: .7 !important;
+    z-index: 10 !important;
+}
